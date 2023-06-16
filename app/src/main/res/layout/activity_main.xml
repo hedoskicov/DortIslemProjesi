@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D6B5"
+    android:onClick="cikar"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="206dp"
+        android:layout_height="92dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:hint="Sonuç"
+        android:textColor="#3A3C38"
+        android:textColorHint="#009688"
+        android:textSize="34sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <LinearLayout
+        android:layout_width="214dp"
+        android:layout_height="111dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="398dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#2B2C2A"
+            android:hint="+"
+            android:onClick="topla"
+            android:textColorHint="#A7AAAA"
+            android:textSize="45sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#2B2C2A"
+            android:hint="-"
+            android:onClick="cikar"
+            android:textColorHint="#A7AAAA"
+            android:textSize="48sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="214dp"
+        android:layout_height="104dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="509dp"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#2B2C2A"
+            android:hint="*"
+            android:onClick="carp"
+            android:textColorHint="#A7AAAA"
+            android:textSize="60sp"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:backgroundTint="#2B2C2A"
+            android:hint=":"
+            android:onClick="bol"
+            android:textColorHint="#A7AAAA"
+            android:textSize="40sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="253dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="67dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:hint="1. Sayı"
+            android:inputType="text"
+            android:textColor="#050505"
+            android:textColorHint="#009688"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:hint="2. Sayı"
+            android:inputType="text"
+            android:textColor="#000000"
+            android:textColorHint="#009688"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
